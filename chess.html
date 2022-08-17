@@ -1,0 +1,207 @@
+<html>
+<head>
+   <link href="css/style.css" rel="stylesheet">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+   <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
+</head>
+
+<body>
+   <section class="content">
+      <div class="menu">
+         <div class="menu-con">
+            <div class="left-con padding educators">
+                  <img src="images/R (1).png" class="left-header">
+             </div>
+             <div class="left-con padding" id="play">
+               <img src="images/play.webp" class="logo">
+               <p>Play</p>
+          </div>
+          <div class="left-con padding" id="puzzle">
+            <i class="fas fa-puzzle-piece logo color"></i>
+            <p>Puzzles</p>
+       </div>
+       <div class="left-con padding" id="rules">
+         <i class="fas fa-pencil-ruler logo color2"></i>
+         <p>Rules</p>
+      </div>
+      <div class="left-con align">
+      <button class="signup">Sign Up</button>
+      </div>
+      <div class="left-con align">
+      <button class="login">Log In</button>
+      </div>
+         </div>
+         </div>
+         <div class="menu2 Play">
+            <div class="left-con padding">
+               <img src="images/bot.webp" class="logo">
+               <p>Computer Mode</p>
+          </div>
+          <a href="chess.html"><div class="left-con padding">
+            <i class="fas fa-user-friends logo color3"></i>
+            <p>Two Player Mode</p>
+       </div></a>
+         </div>
+         <div class="menu2 Puzzles">
+            <div class="left-con padding">
+               <i class="fas fa-bug logo color4"></i>
+               <p>Puzzle Battle</p>
+          </div>
+          <div class="left-con padding">
+            <i class="far fa-calendar-alt logo color5"></i>
+            <p>Daily Puzzle</p>
+       </div>
+         </div>
+         <div class="menu2 Rules">
+            <div class="left-con padding">
+               <i class="fas fa-graduation-cap logo color4"></i>
+               <p>Start Learning</p>
+          </div>
+          <div class="left-con padding">
+            <i class="fas fa-pencil-ruler logo color2"></i>
+            <p>See Rules</p>
+       </div>
+         </div>
+      </div>
+<div class="chess">
+    <div class="user1">
+        <img src="images/user1.png" class="person">
+        <div class="coins">
+        <p>Player1</p>
+        <div class="u"></div>
+        </div>
+        <h3 class="turn2" id="blink"></h3>
+    </div>
+<table class="table" id="t">
+<tr>
+
+<th class="ss" bgcolor="#baca44" id="a1"><div class="vv"><img src="images/pic1.svg" alt="rook" id="a1" class="black"></div></th>
+<th class="ss" bgcolor="#769656" id="b1"><div class="vv"><img src="images/pic2.svg" alt="knight" id="b1" class="black"></div></th>
+<th class="ss" bgcolor="#baca44" id="c1"><div class="vv"><img src="images/pic3.svg" alt="bishop" id="c1" class="black"></div></th>
+<th class="ss" bgcolor="#769656" id="d1"><div class="vv"><img src="images/pic4.svg" alt="queen" id="d1" class="black"></div></th>
+<th class="ss" bgcolor="#baca44" id="e1"><div class="vv"><img src="images/pic5.svg" alt="king" id="e1" class="black"></div></th>
+<th class="ss" bgcolor="#769656" id="f1"><div class="vv"><img src="images/pic3.svg" alt="bishop" id="f1" class="black"></div></th>
+<th class="ss" bgcolor="#baca44" id="g1"><div class="vv"><img src="images/pic2.svg" alt="knight" id="g1" class="black"></div></th>
+<th class="ss" bgcolor="#769656" id="h1"><div class="vv"><img src="images/pic1.svg" alt="rook" id="h1" class="black"></div></th>
+</tr>
+
+<tr>
+
+<th class="ss" bgcolor="#769656" id='a2'><div class="vv"><img src="images/pic6.svg" alt="pawn" id="a2" class="black"></div></th>
+<th class="ss" bgcolor="#baca44" id='b2'><div class="vv"><img src="images/pic6.svg" alt="pawn" id="b2" class="black"></div></th>
+<th class="ss" bgcolor="#769656" id='c2'><div class="vv"><img src="images/pic6.svg" alt="pawn" id="c2" class="black"></div></th>
+<th class="ss" bgcolor="#baca44" id='d2'><div class="vv"><img src="images/pic6.svg" alt="pawn" id="d2" class="black"></div></th>
+<th class="ss" bgcolor="#769656" id='e2'><div class="vv"><img src="images/pic6.svg" alt="pawn" id="e2" class="black"></div></th>
+<th class="ss" bgcolor="#baca44" id='f2'><div class="vv"><img src="images/pic6.svg" alt="pawn" id="f2" class="black"></div></th>
+<th class="ss" bgcolor="#769656" id='g2'><div class="vv"><img src="images/pic6.svg" alt="pawn" id="g2" class="black"></div></th>
+<th class="ss" bgcolor="#baca44" id='h2'><div class="vv"><img src="images/pic6.svg" alt="pawn" id="h2" class="black"></div></th>
+
+</tr>
+
+<tr>
+<th bgcolor="#baca44" id='a3'><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="b3"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="c3"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="d3"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="e3"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="f3"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="g3"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="h3"><div class="vv"><img src="" alt="" id=""></div></th>
+</tr>
+
+<tr>
+
+<th bgcolor="#769656" id='a4'><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="b4"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="c4"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="d4"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="e4"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="f4"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="g4"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="h4"><div class="vv"><img src="" alt="" id=""></div></th>
+
+</tr>
+
+<tr>
+<th bgcolor="#baca44" id="a5"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="b5"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="c5"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="d5"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="e5"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="f5"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="g5"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="h5"><div class="vv"><img src="" alt="" id=""></div></th>
+</tr>
+
+<tr>
+
+<th bgcolor="#769656" id="a6"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="b6"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="c6"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="d6"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="e6"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="f6"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#769656" id="g6"><div class="vv"><img src="" alt="" id=""></div></th>
+<th bgcolor="#baca44" id="h6"><div class="vv"><img src="" alt="" id=""></div></th>
+
+</tr>
+
+<tr>
+<th class="ss" bgcolor="#baca44"id="a7"><div class="vv"><img src="images/pic6.svg" alt="pawn" id="a7" class="white"></div></th>
+<th class="ss" bgcolor="#769656"id="b7"><div class="vv"><img src="images/pic6.svg" alt="pawn" id="b7" class="white"></div></th>
+<th class="ss" bgcolor="#baca44"id="c7"><div class="vv"><img src="images/pic6.svg" alt="pawn" id="c7" class="white"></div></th>
+<th class="ss" bgcolor="#769656"id="d7"><div class="vv"><img src="images/pic6.svg" alt="pawn" id="d7" class="white"></div></th>
+<th class="ss" bgcolor="#baca44"id="e7"><div class="vv"><img src="images/pic6.svg" alt="pawn" id="e7" class="white"></div></th>
+<th class="ss" bgcolor="#769656"id="f7"><div class="vv"><img src="images/pic6.svg" alt="pawn" id="f7" class="white"></div></th>
+<th class="ss" bgcolor="#baca44"id="g7"><div class="vv"><img src="images/pic6.svg" alt="pawn" id="g7" class="white"></div></th>
+<th class="ss" bgcolor="#769656"id="h7"><div class="vv"><img src="images/pic6.svg" alt="pawn" id="h7" class="white"></div></th>
+
+</tr>
+
+<tr>
+
+<th class="ss" bgcolor="#769656" id="a8"><div class="vv"><img src="images/pic1.svg" alt="rook" id="a8" class="white"></div></th>
+<th class="ss" bgcolor="#baca44" id="b8"><div class="vv"><img src="images/pic2.svg" alt="knight" id="b8" class="white"></div></th>
+<th class="ss" bgcolor="#769656" id="c8"><div class="vv"><img src="images/pic3.svg" alt="bishop" id="c8" class="white"></div></th>
+<th class="ss" bgcolor="#baca44" id="d8"><div class="vv"><img src="images/pic4.svg" alt="queen" id="d8" class="white"></div></th>
+<th class="ss" bgcolor="#769656" id="e8"><div class="vv"><img src="images/pic5.svg" alt="king" id="e8" class="white"></div></th>
+<th class="ss" bgcolor="#baca44" id="f8"><div class="vv"><img src="images/pic3.svg" alt="bishop" id="f8" class="white"></div></th>
+<th class="ss" bgcolor="#769656" id="g8"><div class="vv"><img src="images/pic2.svg" alt="knight" id="g8" class="white"></div></th>
+<th class="ss" bgcolor="#baca44" id="h8"><div class="vv"><img src="images/pic1.svg" alt="rook" id="h8" class="white"></div></th>
+
+
+</tr>
+<!--<div class="vv none"><img src="images/pic6.svg" alt="logo"></div>-->
+</table>
+<div class="user1 user2">
+    <img src="images/user2.png">
+    <p>Player2</p>
+</div>
+</div>
+<div class="sidebar">
+<h2 class="turn">white turn</h2>
+   
+   <h3 class="turn3"></h3>
+   <div class="buttons">
+      <button class="change-btn undo"><i class="fas fa-undo"></i> undo</button>
+      <button class="change-btn  redo"><i class="fas fa-redo"></i> redo</button>
+   </div>
+   <div class="moves">
+      <div class="top">
+      <p>Moves</p>
+      </div>
+      <div class="positions">
+
+      </div>
+   </div>
+   <div class="newgame">
+   <a href="chess.html"><button class="change-btn new">New Game</button></a>
+   </div>
+   </div>
+</section>
+<script src="jquery/jquery.js"></script>
+<script src="js/script.js"></script>
+<script src="js/script2.js"></script>
+</body>
+</html>

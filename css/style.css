@@ -1,0 +1,422 @@
+*{
+  padding:0;
+  margin:0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+     background-color: #312e2b;
+     position: relative;
+}
+.content {
+    display: flex;
+    height: 100%;
+} 
+.menu {
+    background-color: #272522;
+    color: white;
+    height: 100%;
+    position: fixed;
+}
+.option-box {
+    position: fixed;
+    width: 30%;
+    color: #9e9e9e;
+    left: 37%;
+    top: 20%;
+    display: none;
+}
+.exit {
+    text-align: end;
+}
+.exit i{
+    padding: 8px;
+    font-size: 31px;
+    cursor: pointer;
+}
+.options {
+    padding: 42px;
+    text-align: center;
+    background-color: #000000d6;
+    border-radius: 4px;
+}
+.options h2 {
+    font-size: 45px;
+}
+.mode {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    align-items: baseline;
+    border: 2px solid;
+    width: 68%;
+    margin: o auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px;
+    cursor: pointer;
+}
+.mode:hover {
+    color: white;
+}
+.options a {
+    text-decoration: none;
+    color: inherit;
+}
+.size {
+    font-size: 65px;
+}
+.size2 {
+    margin-right: 20px;
+    font-size: 53px;
+    margin-left: 20px;
+}
+.left-con {
+    display: flex;
+    margin-bottom: 18px;
+    align-items:center;
+    padding: 10px 25px;
+    /* background-color: orange; */
+    border-radius: 5px;
+    color: #ffffffb0;
+    cursor: pointer;
+}
+.chessworld {
+    display: flex;
+}
+.logo {
+    width: 28px;
+    padding-right: 13px;
+}
+.padding {
+    border-radius: 0%;
+}
+.padding:hover {
+    background-color: #00000030;;
+    color: #fff;
+}
+.h4 {
+    font-size: 25px;
+}
+.h4 label {
+    font-size: 12px;
+}
+.color {
+    font-size: 21px;
+    color: #e29757;
+}
+.color2 {
+    color: #5b8bb0;
+    font-size: 21px;
+}
+.align {
+    justify-content: center;
+    margin-bottom: 0;
+}
+.signup {
+    background-color: #383633;
+    color: white;
+    border: 0;
+    padding: 13px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.signup:hover {
+    background-color: #e7e7e430;
+}
+.login {
+    background-color: #7fa650;
+    color: white;
+    border: 0;
+    padding: 13px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.login:hover {
+    background-color: #95bb4a;
+}
+.home-page {
+    width: 57%;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: fit-content;
+    
+    margin-left: 28%;
+
+}
+.menu2 {
+    background-color: #00000054;
+    color: #ffffffb0;
+    position: fixed;
+    margin-left: 154px;
+    height: 100%;
+    width: 16%;
+    padding: 12px 6px;
+}
+.Play {
+    display: none;
+}
+.Puzzles {
+    display: none;
+}
+.Rules {
+    display: none;
+}
+.color3 {
+    color: #ffff0085;
+    font-size: 21px;
+}
+.color4 {
+    color: #9ccc65;
+    font-size: 21px;
+}
+.color5 {
+    color: goldenrod;
+    font-size: 21px;
+}
+#play:hover ~ .menu2{
+    display: block;
+}
+.chess {
+    height: 95%;
+    margin-left: 18%;
+    padding: 28px 0px;
+}
+.user1 {
+    margin-bottom: 19px;
+    display: flex;
+    height: 70px;
+}
+.user2 {
+    margin-top: 19px;
+    display: flex;
+    margin-bottom: 0;
+}
+.person {
+    width: 37px;
+    border-radius: 3px;
+    height: 40px;
+}
+.coins {
+    margin-left: 22px;
+    width: 46%;
+}
+.u {
+    display: flex;
+    height: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.u div {
+    padding: 0px 4px;
+    width: 18px;
+}
+.u div img {
+    height: 100%;
+}
+.user1 p {
+    color: #ffffffb0;
+    margin-bottom: 3px;
+}
+.guest-block {
+    display: flex;
+}
+.puzzle-block{
+    width: 90%;
+    padding: 50px;
+    margin-top: 9%;
+    display: flex;
+    background-color: #272522;
+}
+.puzzle-left {
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 18px;
+}
+.puzzle-left h2 {
+    font-size: 38px;
+    font-family: system-ui;
+}
+.puzzle-right {
+    width: 50%;
+ }
+ .puzzle-right img {
+    width: 100%;
+ }
+.block-right {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: system-ui;
+    padding-left: 73px;
+    padding-top: 17px;
+}
+.in-btn {
+    border-radius: 5px;
+    color: white;
+    background-color: #7fa650;
+    border: 0;
+    padding: 11px 42px;
+    margin-top: 60px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+.in-btn:hover{
+    background-color: #95bb4a;
+}
+.quotes {
+    margin-top: 24%;
+    display: flex;
+}
+.quotes img {
+    width: 130px;
+}
+.quote {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 28px;
+    color: #ffffffb0;
+}
+.author {
+    font-size: 20px;
+    padding-top: 14px;
+}
+.footer {
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 6%;
+}
+.footer i {
+    margin: 0px 7px;
+    font-size: 25px;
+    color: #ffffffb0;
+    cursor: pointer;
+}
+.footer i:hover {
+    color: red;
+}
+.sidebar {
+    background-color: #00000054;
+    width: 27%;
+    height: 94%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 41px;
+    border-radius: 5px;
+    color: #ffffffb0;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.moves {
+    height: 73%;
+    width: 82%;
+    background-color: #272522;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 0px 22px;
+}
+.newgame {
+    justify-content: center;
+    display: flex;
+    padding: 23px 55px
+}
+.top {
+    background-color: #272522;
+    padding: 15px 0px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+.positions {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%
+}
+.pos {
+    width: 50%;
+    margin-bottom: 3%;
+}
+.left-header {
+    width: 95px;
+    margin-bottom: 15px;
+}
+.chess table {
+    /*border: 11px solid black;*/
+    width: 780px;
+    height: 780px;
+    /*border-collapse: collapse;*/
+}
+.turn {
+    text-align: center;
+    margin-top: 2%;
+}
+.turn2 {
+    width: 72%;
+    color: red;
+    font-size: 26px;
+    font-family: cursive;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 55px;
+}
+.change-btn  {
+    padding: 14px 38px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 19px;
+    background-color: #383633;
+    color: #ffffffb0;
+    cursor: pointer;
+}
+.change-btn:hover {
+    background-color: #e7e7e430;
+}
+.new {
+    padding: 15px 153px;
+}
+tr {
+    height: 12%;
+}
+.ss {
+    
+}
+.vv {
+
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+   
+}
+.vv img {
+    cursor: pointer;
+}
+.none {
+    display: none;
+}
+.black {
+    filter: invert(4%) sepia(82%) saturate(1162%) hue-rotate( 
+        -168deg
+         ) brightness(204%) contrast(154%);
+}
+.white {
+    filter: invert(80%) sepia(28%) saturate(1244%) hue-rotate(
+        -168deg
+        ) brightness(119%) contrast(119%);
+}
